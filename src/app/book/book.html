@@ -1,0 +1,9 @@
+<tr>
+    <td>{{book.author}}</td>
+    <td (click)="onClickBookTitle(book)">{{book.title}}</td>
+    <td>{{book.country}}</td>
+    <td>{{book.year}}</td>
+    @if (isShowPage) {
+        <td>{{book.pages}}</td>
+    }
+</tr>

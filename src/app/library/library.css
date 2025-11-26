@@ -1,0 +1,33 @@
+table {
+    user-select: none;
+}
+
+th {
+    width: 7.5%;
+    background-color: #0f0;
+}
+
+th:nth-of-type(1), th:nth-of-type(2) {
+    width: 35%;
+}
+
+th:nth-of-type(3) {
+    width: 15%;
+}
+
+td:nth-of-type(5) {
+    background-color: #0f0;
+}
+
+td:nth-of-type(2) {
+    cursor: pointer;
+} 
+
+tbody > tr:hover {
+    background-color: rgba(255, 0, 0, 0.6) !important;
+}
+
+.italic-underlined {
+    font-style: italic;
+    text-decoration: underline;
+}
